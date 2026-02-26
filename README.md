@@ -1,7 +1,7 @@
 # Ninja Readmore
 Ninja Readmore è un plugin jQuery leggero e flessibile che consente di limitare l'altezza dei paragrafi di testo e aggiungere un link "Leggi di più / Leggi meno" per espandere o contrarre il contenuto. Supporta il grid system di Bootstrap e i modali di Bootstrap.
 
-## 🚀 Caratteristiche
+## Caratteristiche
 
 - Imposta un'altezza massima per il testo e aggiunge un link per espandere/contrarre il contenuto.
 - Compatibile con Bootstrap e il suo sistema di griglie.
@@ -9,7 +9,7 @@ Ninja Readmore è un plugin jQuery leggero e flessibile che consente di limitare
 - Evento personalizzato `ninjaReadmore:init` per estendere le funzionalità.
 - Facile da integrare con configurazioni personalizzabili.
 
-## 📦 Installazione
+## Installazione
 
 Aggiungi il plugin al tuo progetto includendo i seguenti file:
 
@@ -30,7 +30,7 @@ Assicurati di includere jQuery prima del plugin:
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 ```
 
-## 🔧 Utilizzo
+## Utilizzo
 
 ### Esempio Base
 ```html
@@ -58,7 +58,7 @@ Assicurati di includere jQuery prima del plugin:
 </script>
 ```
 
-## ⚙️ Opzioni
+## Opzioni
 | Opzione      | Tipo    | Default | Descrizione |
 |-------------|--------|---------|-------------|
 | `height`    | `int`  | `100`   | Altezza massima iniziale del testo (in pixel). |
@@ -66,7 +66,7 @@ Assicurati di includere jQuery prima del plugin:
 | `lessText`  | `string` | `'Leggi meno'` | Testo del link per contrarre il contenuto. |
 | `insideModal` | `bool` | `false` | Abilita il supporto per i modali Bootstrap. |
 
-## 🔄 Evento Personalizzato
+## Evento Personalizzato
 L'evento `ninjaReadmore:init` viene attivato dopo l'inizializzazione del plugin. Può essere usato per azioni ed eventi personalizzati.
 
 ```javascript
@@ -75,15 +75,12 @@ $('.read-more').on('ninjaReadmore:init', function() {
 });
 ```
 
-## 📜 Licenza
+## Licenza
 Questo progetto è distribuito sotto la licenza **MIT**. Consulta il file `LICENSE` per maggiori dettagli.
 
-## 📩 Contatti & Supporto
+## Contatti & Supporto
 Per segnalazioni di bug o richieste di miglioramenti, apri un'**issue** su GitHub.
 
 [Hanami Software](https://github.com/HanamiSoftware) - Creato con ❤️ da Hanami Software. 
 
 ti Piace? Offrimi un caffè.
-<br/>
-<br/> 
-<a href="https://www.buymeacoffee.com/hanamisoftware" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
