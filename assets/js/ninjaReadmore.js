@@ -2,7 +2,7 @@
     $.fn.ninjaReadmore = function(options) {
         // Imposta le opzioni di default
         var settings = $.extend({
-            height: 100,         // Altezza massima di default
+            height: 10,         // Altezza massima di default
             moreText: 'Leggi di più',
             lessText: 'Leggi meno',
             insideModal: false   // Se true, attiva il supporto per i modali Bootstrap
